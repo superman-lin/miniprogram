@@ -1,0 +1,36 @@
+<!--pages/index/index.wxml-->
+<view>
+  <view class='indexItemContent'>
+
+    <view class='indexItemleft'>
+      <view class="indexTaskItemPrice">
+        <text>300￥</text>
+      </view>
+      <view class='indexTaskItemAddress'>
+        <text class='address_text'>北京市昌平区回龙观龙腾苑4区</text>
+      </view>
+
+      <view class='indexTaskItemPublishTime'>
+        <text>2019.03.06  16：30 - 17：00</text>
+      </view>
+
+      <view class='task_describe'>
+        <text class='taskDescribe_text'>任务描述：精通王瑜伽、熟练C++、java、优先</text>
+      </view>
+
+      <view class='task_remarks'>
+        <text class='taskRemarks_text'>备注：请携带换洗衣服</text>
+      </view>
+
+      <view class='platform_hint'>
+        <text>### 请申领成功后 当面交易。平台只提供任务发布，不负责金钱管理。</text>
+      </view>
+
+    </view>
+
+    <view class='indexItemRight' bindtap='vieTask'>
+      <button>领</button>
+    </view>
+  </view>
+
+</view>

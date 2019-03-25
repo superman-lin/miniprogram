@@ -1,0 +1,95 @@
+/* pages/index/index.wxss */
+
+/* 首页任务价格 */
+
+.indexTaskItemPrice {
+  color: red;
+  font-size: 28rpx;
+}
+
+/* 地址 */
+
+.indexTaskItemAddress {
+  color: #303030;
+  font-size: 25rpx;
+  margin-top: 5rpx;
+}
+
+.address_text {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* 发布时间 */
+
+.indexTaskItemPublishTime {
+  color: #303030;
+  font-size: 30rpx;
+  margin-top: 4rpx;
+}
+
+/* 任务类型描述 */
+
+.task_describe {
+  color: #303030;
+  font-size: 25rpx;
+  margin-top: 4rpx;
+}
+
+.taskDescribe_text {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* 任务备注 */
+
+.task_remarks {
+  color: #303030;
+  font-size: 30rpx;
+  margin-top: 4rpx;
+}
+
+.taskRemarks_text {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* 平台对用户的提示 */
+
+.platform_hint {
+  color: #303030;
+  font-size: 30rpx;
+  margin-top: 7rpx;
+}
+
+/* 首页 item 父布局 */
+
+.indexItemContent {
+  padding: 20rpx;
+  margin: 20rpx;
+  display: flex;
+  align-items: center;
+  border: 2rpx solid #d8d7d7;
+  border-radius: 5px;
+}
+
+.indexItemRight {
+  font-size: 30rem;
+}
+
+.indexItemleft {
+  padding-right: 10rpx;
+  width: 90%;
+}
